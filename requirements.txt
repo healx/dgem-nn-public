@@ -1,0 +1,7 @@
+attrs==22.1.0
+pandas==1.4.3
+torch==1.12
+deepchem==2.6.1
+scikit-learn
+tqdm
+gseapy==1.0.4
