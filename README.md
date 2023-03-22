@@ -2,7 +2,7 @@
 
 Disease-drug transcriptomics-based matching with deep learning
 
-For more information see our preprint:
+For more information see our preprint: https://arxiv.org/abs/2303.11695
 
 ### Running example
 
@@ -15,5 +15,12 @@ After cloning and pip installing requirements.txt:
   ```PYTHONPATH=. python3 dgem_nn/scripts/predict.py --drugs-signatures-dir data/drugs_signatures --diseases-contrasts-dir data/sample_contrasts --model-path trained_models --predictions-dir ps --ensemble```
 
 ### Cite
-
-arxiv - url
+```@misc{papanikolaou2023transcriptomicsbased,
+      title={Transcriptomics-based matching of drugs to diseases with deep learning}, 
+      author={Yannis Papanikolaou and Francesco Tuveri and Misa Ogura and Daniel O'Donovan},
+      year={2023},
+      eprint={2303.11695},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.GN}
+}
+```
